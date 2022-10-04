@@ -1,10 +1,10 @@
 from brain_games.games.even_greeting import welcome_user
-from brain_games.games.even_prime import form_func
+from brain_games.games.prime_games import prime
 
 
 def main():
     name_user = welcome_user()
-    form_func(name_user)
+    prime(name_user)
 
 
 if __name__ == '__main__':

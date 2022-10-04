@@ -15,7 +15,7 @@ def sum_func(first_operand, second_operand, name_user):
              f" Let's try again, {name_user}!")
 
 
-def subt_func(first_operand, second_operand, name_user):
+def subtract_func(first_operand, second_operand, name_user):
     right_answer = first_operand - second_operand
     user_answer = string(f'Question: {first_operand} '
                          f'- {second_operand}\nYour answer: ')
@@ -45,12 +45,12 @@ def sort_func(focus_operator, name_user):
     if focus_operator == '+':
         sum_func(first_operand, second_operand, name_user)
     elif focus_operator == '-':
-        subt_func(first_operand, second_operand, name_user)
+        subtract_func(first_operand, second_operand, name_user)
     elif focus_operator == '*':
         multiply_func(first_operand, second_operand, name_user)
 
 
-def run_calc(name_user):
+def calc(name_user):
     print('What is the result of the expression?')
     count = 0
     operators = ["+", "-", "*"]

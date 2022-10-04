@@ -1,10 +1,10 @@
-from brain_games.games.even_parity_check import first_qst
+from brain_games.games.even_games import parity_check
 from brain_games.games.even_greeting import welcome_user
 
 
 def main():
     name_user = welcome_user()
-    first_qst(name_user)
+    parity_check(name_user)
 
 
 if __name__ == "__main__":

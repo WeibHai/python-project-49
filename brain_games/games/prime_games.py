@@ -3,7 +3,7 @@ from random import randint
 from sys import exit
 
 
-def search(number):
+def search_right_answer(number):
     separators = []
     separator = number
     while separator != 0:
@@ -18,13 +18,13 @@ def search(number):
         return 'no'
 
 
-def form_func(name_user):
+def prime(name_user):
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     count = 0
     while count != 3:
         number = randint(1, 25)
 
-        right_answer = search(number)
+        right_answer = search_right_answer(number)
         user_answer = string(f'Question: {number}'
                              f'\nYour answer: ')
         if user_answer == right_answer:
