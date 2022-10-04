@@ -21,7 +21,7 @@ def form_func(name_user):
         prepared_progression = []
         prepared_progression.extend(progression)
 
-        x_element = randint(1, len(progression))
+        x_element = randint(2, len(progression) - 1)
         prepared_progression[x_element] = ".."
 
         right_answer = progression[x_element]
