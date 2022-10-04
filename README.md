@@ -8,3 +8,5 @@ asciinema-1 https://asciinema.org/a/8g8bjpPSqAHy88BUarxqnA5e0
 asciinema-2 (calc games) https://asciinema.org/a/rK2jPoY79ZAWlcDM9ullmIzbc
 
 asciinema-3 (gcd games) https://asciinema.org/a/nS3D83CcJBHzTcF4UYLOdeEqi
+
+asciinema-4 (progression games) https://asciinema.org/a/DYUG5HGzYQzXXovDC1KiV85Xb
