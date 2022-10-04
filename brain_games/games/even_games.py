@@ -23,7 +23,8 @@ def parity_check(name_user):
             print("Correct!")
             count += 1
         else:
-            exit(f"'{user_answer}' is wrong answer ;(."
-                 f"Correct answer was '{right_answer}'."
-                 f" Let's try again, {name_user}!")
+            print(f"'{user_answer}' is wrong answer ;(."
+                  f"Correct answer was '{right_answer}'."
+                  f" Let's try again, {name_user}!")
+            count = 3
     print(f'Congratulations, {name_user}!')
