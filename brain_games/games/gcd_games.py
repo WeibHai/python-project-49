@@ -1,6 +1,5 @@
 from prompt import string
 from random import randint
-from sys import exit
 
 
 def search_right_answer(first_int, second_int):
@@ -15,7 +14,7 @@ def search_right_answer(first_int, second_int):
 def gcd(name_user):
     print('Find the greatest common divisor of given numbers.')
     count = 0
-    while count != 3:
+    while count < 3:
         first_int = randint(1, 10)
         second_int = randint(1, 10)
         right_answer = search_right_answer(first_int, second_int)
@@ -26,7 +25,12 @@ def gcd(name_user):
             print("Correct!")
             count += 1
         else:
-            exit(f"'{user_answer}' is wrong answer ;(."
-                 f"Correct answer was '{right_answer}'."
-                 f" Let's try again, {name_user}!")
-    print(f'Congratulations, {name_user}!')
+            count = 25
+    else:
+        if count == 3:
+            print(f'Congratulations, {name_user}!')
+        elif count == 25:
+            print(f"'{user_answer}' is wrong answer ;(."
+                  f"Correct answer was '{right_answer}'."
+                  f" Let's try again, {name_user}!")
+

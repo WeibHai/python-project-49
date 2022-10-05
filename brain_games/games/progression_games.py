@@ -16,7 +16,7 @@ def create_progression():
 def progression(name_user):
     print('What number is missing in the progression?')
     count = 0
-    while count != 3:
+    while count < 3:
         initial_progression = create_progression()
         prepared_progression = []
         prepared_progression.extend(initial_progression)
@@ -31,7 +31,11 @@ def progression(name_user):
             print("Correct!")
             count += 1
         else:
-            exit(f"'{user_answer}' is wrong answer ;(."
-                 f"Correct answer was '{right_answer}'."
-                 f" Let's try again, {name_user}!")
-    print(f'Congratulations, {name_user}!')
+            count = 25
+    else:
+        if count == 3:
+            print(f'Congratulations, {name_user}!')
+        elif count == 25:
+            print(f"'{user_answer}' is wrong answer ;(."
+                  f"Correct answer was '{right_answer}'."
+                  f" Let's try again, {name_user}!")

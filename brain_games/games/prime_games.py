@@ -21,7 +21,7 @@ def search_right_answer(number):
 def prime(name_user):
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     count = 0
-    while count != 3:
+    while count < 3:
         number = randint(1, 25)
 
         right_answer = search_right_answer(number)
@@ -31,7 +31,11 @@ def prime(name_user):
             print("Correct!")
             count += 1
         else:
-            exit(f"'{user_answer}' is wrong answer ;(."
-                 f"Correct answer was '{right_answer}'."
-                 f" Let's try again, {name_user}!")
-    print(f'Congratulations, {name_user}!')
+            count = 25
+    else:
+        if count == 3:
+            print(f'Congratulations, {name_user}!')
+        elif count == 25:
+            print(f"'{user_answer}' is wrong answer ;(."
+                  f"Correct answer was '{right_answer}'."
+                  f" Let's try again, {name_user}!")
