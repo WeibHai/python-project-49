@@ -1,6 +1,5 @@
 from prompt import string
 from random import randint
-from sys import exit
 
 
 def search_right_answer(number):
