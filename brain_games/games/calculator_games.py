@@ -54,4 +54,3 @@ def calc(name_user):
             print(f"'{user_answer}' is wrong answer ;(."
                   f"Correct answer was '{right_answer}'."
                   f" Let's try again, {name_user}!")
-                  
