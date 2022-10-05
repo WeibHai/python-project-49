@@ -25,8 +25,8 @@ def progression(name_user):
         prepared_progression[x_element] = ".."
 
         right_answer = initial_progression[x_element]
-        user_answer = string(f'Question: {prepared_progression}'
-                             f'\nYour answer: ')
+        user_answer = string('''Question: {} {} {} {} {} {} {} {} {} {}
+Your answer: '''.format(*prepared_progression))
         if int(user_answer) == right_answer:
             print("Correct!")
             count += 1
