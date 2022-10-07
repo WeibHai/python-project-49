@@ -16,18 +16,22 @@ System requirements: python version 3.8 or higher
 Installation process:
 
 1. Print on command line - 'python3 -m pip install --user dist/*.whl.'
-<a href="https://asciinema.org/a/Q1FQSwhm6eM4sPRIGFQWYvHaz"></a>
-
+<script src="https://asciinema.org/a/Q1FQSwhm6eM4sPRIGFQWYvHaz" id="asciicast-14" async></script>
 2. Choose one of five games: 
 "Even Check" - brain-even
-<a href="https://asciinema.org/a/8g8bjpPSqAHy88BUarxqnA5e0"></a>
+<script src="https://asciinema.org/a/8g8bjpPSqAHy88BUarxqnA5e0" id="asciicast-14" async></script>
+
 "GCD" - brain-gcd
-<a href="https://asciinema.org/a/nS3D83CcJBHzTcF4UYLOdeEqi"></a>
+<script src="https://asciinema.org/a/nS3D83CcJBHzTcF4UYLOdeEqi" id="asciicast-14" async></script>
+
 "Calculator" - brain-calc
-<a href="https://asciinema.org/a/rK2jPoY79ZAWlcDM9ullmIzbc"></a>
+<script src="https://asciinema.org/a/rK2jPoY79ZAWlcDM9ullmIzbc" id="asciicast-14" async></script>
+
+
 "Arithmetic progression" - brain-progression
-<a href="https://asciinema.org/a/DYUG5HGzYQzXXovDC1KiV85Xb"></a> 
+<script src="https://asciinema.org/a/DYUG5HGzYQzXXovDC1KiV85Xb" id="asciicast-14" async></script>
+
 "Is it a prime number?" - brain-prime.
-<a href="https://asciinema.org/a/RBp86w9148EPN67KhGG1XBN7L"></a>
+<script src="https://asciinema.org/a/RBp86w9148EPN67KhGG1XBN7L" id="asciicast-14" async></script>
 
 
