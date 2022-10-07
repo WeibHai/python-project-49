@@ -15,23 +15,26 @@ System requirements: python version 3.8 or higher
 
 Installation process:
 
-1. Print on command line - 'python3 -m pip install --user dist/*.whl.'
+<p>1. Print on command line - 'python3 -m pip install --user dist/*.whl.'</p>
 <script src="https://asciinema.org/a/Q1FQSwhm6eM4sPRIGFQWYvHaz" id="asciicast-14" async></script>
-2. Choose one of five games: 
-"Even Check" - brain-even
+<p>2. Choose one of five games:</p>
+
+
+
+<p>"Even Check" - brain-even</p>
 <script src="https://asciinema.org/a/8g8bjpPSqAHy88BUarxqnA5e0" id="asciicast-14" async></script>
-
-"GCD" - brain-gcd
+<p></p>
+<p>"GCD" - brain-gcd</p>
 <script src="https://asciinema.org/a/nS3D83CcJBHzTcF4UYLOdeEqi" id="asciicast-14" async></script>
-
-"Calculator" - brain-calc
+<p></p>
+<p>"Calculator" - brain-calc</p>
 <script src="https://asciinema.org/a/rK2jPoY79ZAWlcDM9ullmIzbc" id="asciicast-14" async></script>
-
-
-"Arithmetic progression" - brain-progression
+<p></p>
+<p>"Arithmetic progression" - brain-progression</p>
 <script src="https://asciinema.org/a/DYUG5HGzYQzXXovDC1KiV85Xb" id="asciicast-14" async></script>
-
-"Is it a prime number?" - brain-prime.
+<p></p>
+<p>"Is it a prime number?" - brain-prime.</p>
 <script src="https://asciinema.org/a/RBp86w9148EPN67KhGG1XBN7L" id="asciicast-14" async></script>
+<p></p>
 
 
