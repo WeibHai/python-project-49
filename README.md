@@ -28,5 +28,3 @@ Installation process:
 <p>https://asciinema.org/a/DYUG5HGzYQzXXovDC1KiV85Xb</p>
 <p>"Is it a prime number?" - brain-prime.</p>
 <p>https://asciinema.org/a/RBp86w9148EPN67KhGG1XBN7L</p>
-
-
