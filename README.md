@@ -16,35 +16,17 @@ System requirements: python version 3.8 or higher
 Installation process:
 
 <p>1. Print on command line - 'python3 -m pip install --user dist/*.whl.'</p>
-<video>
-  <source src="https://asciinema.org/a/Q1FQSwhm6eM4sPRIGFQWYvHaz">
-</video>
-<p>2. Choose one of five games:</p>
+<p>https://asciinema.org/a/Q1FQSwhm6eM4sPRIGFQWYvHaz"</p>
 
 <p>"Even Check" - brain-even</p>
-<video>
-  <source src="https://asciinema.org/a/8g8bjpPSqAHy88BUarxqnA5e0">
-</video>
-<p></p>
+<p>https://asciinema.org/a/8g8bjpPSqAHy88BUarxqnA5e0</p>
 <p>"GCD" - brain-gcd</p>
-<video>
-   <source src="https://asciinema.org/a/nS3D83CcJBHzTcF4UYLOdeEqi">
-</video>
-<p></p>
+<p>https://asciinema.org/a/nS3D83CcJBHzTcF4UYLOdeEqi</p>
 <p>"Calculator" - brain-calc</p>
-<video>
-  <source src="https://asciinema.org/a/rK2jPoY79ZAWlcDM9ullmIzbc">
-</video>
-<p></p>
+<p>https://asciinema.org/a/rK2jPoY79ZAWlcDM9ullmIzbc</p>
 <p>"Arithmetic progression" - brain-progression</p>
-<video>
-  <source src="https://asciinema.org/a/DYUG5HGzYQzXXovDC1KiV85Xb">
-</video>
-<p></p>
+<p>https://asciinema.org/a/DYUG5HGzYQzXXovDC1KiV85Xb</p>
 <p>"Is it a prime number?" - brain-prime.</p>
-<video>
-  <source src="https://asciinema.org/a/RBp86w9148EPN67KhGG1XBN7L">
-</video>
-<p></p>
+<p>https://asciinema.org/a/RBp86w9148EPN67KhGG1XBN7L</p>
 
 
