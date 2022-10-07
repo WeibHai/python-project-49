@@ -17,33 +17,33 @@ Installation process:
 
 <p>1. Print on command line - 'python3 -m pip install --user dist/*.whl.'</p>
 <video>
-    <source src="https://asciinema.org/a/Q1FQSwhm6eM4sPRIGFQWYvHaz">
+  <source src="https://asciinema.org/a/Q1FQSwhm6eM4sPRIGFQWYvHaz">
 </video>
 <p>2. Choose one of five games:</p>
 
 <p>"Even Check" - brain-even</p>
 <video>
-<   source src="https://asciinema.org/a/8g8bjpPSqAHy88BUarxqnA5e0">
+  <source src="https://asciinema.org/a/8g8bjpPSqAHy88BUarxqnA5e0">
 </video>
 <p></p>
 <p>"GCD" - brain-gcd</p>
 <video>
-    <source src="https://asciinema.org/a/nS3D83CcJBHzTcF4UYLOdeEqi">
+   <source src="https://asciinema.org/a/nS3D83CcJBHzTcF4UYLOdeEqi">
 </video>
 <p></p>
 <p>"Calculator" - brain-calc</p>
 <video>
-    <source src="https://asciinema.org/a/rK2jPoY79ZAWlcDM9ullmIzbc">
+  <source src="https://asciinema.org/a/rK2jPoY79ZAWlcDM9ullmIzbc">
 </video>
 <p></p>
 <p>"Arithmetic progression" - brain-progression</p>
 <video>
-    <source src="https://asciinema.org/a/DYUG5HGzYQzXXovDC1KiV85Xb">
+  <source src="https://asciinema.org/a/DYUG5HGzYQzXXovDC1KiV85Xb">
 </video>
 <p></p>
 <p>"Is it a prime number?" - brain-prime.</p>
 <video>
-    <source src="https://asciinema.org/a/RBp86w9148EPN67KhGG1XBN7L">
+  <source src="https://asciinema.org/a/RBp86w9148EPN67KhGG1XBN7L">
 </video>
 <p></p>
 
