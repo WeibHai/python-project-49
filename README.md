@@ -17,7 +17,7 @@ Installation process:
 
 <p>1. Print on command line - 'python3 -m pip install --user dist/*.whl.'</p>
 <p>https://asciinema.org/a/Q1FQSwhm6eM4sPRIGFQWYvHaz"</p>
-
+<p>2. Choose one of five games</p>
 <p>"Even Check" - brain-even</p>
 <p>https://asciinema.org/a/8g8bjpPSqAHy88BUarxqnA5e0</p>
 <p>"GCD" - brain-gcd</p>
