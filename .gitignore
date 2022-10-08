@@ -1,4 +1,4 @@
 .venv/
 dist/
-/scripts/__pycache__/*.pyc
-/games/__pycache__/*.pyc
+brain_games/scripts/__pycache__/*.pyc
+brain_games/games/__pycache__/*.pyc
