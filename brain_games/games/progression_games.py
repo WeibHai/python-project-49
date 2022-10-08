@@ -12,29 +12,16 @@ def create_progression():
     return result
 
 
-def progression(name_user):
-    print('What number is missing in the progression?')
-    count = 0
-    while count < 3:
-        initial_progression = create_progression()
-        prepared_progression = []
-        prepared_progression.extend(initial_progression)
+def progression():
+    initial_progression = create_progression()
+    prepared_progression = []
+    prepared_progression.extend(initial_progression)
 
-        x_element = randint(2, len(initial_progression) - 1)
-        prepared_progression[x_element] = ".."
+    x_element = randint(2, len(initial_progression) - 1)
+    prepared_progression[x_element] = ".."
 
-        right_answer = initial_progression[x_element]
-        user_answer = string('''Question: {} {} {} {} {} {} {} {} {} {}
+    right_answer = initial_progression[x_element]
+    user_answer = string('''Question: {} {} {} {} {} {} {} {} {} {}
 Your answer: '''.format(*prepared_progression))
-        if int(user_answer) == right_answer:
-            print("Correct!")
-            count += 1
-        else:
-            count = 25
-    else:
-        if count == 3:
-            print(f'Congratulations, {name_user}!')
-        elif count == 25:
-            print(f"'{user_answer}' is wrong answer ;(."
-                  f"Correct answer was '{right_answer}'."
-                  f" Let's try again, {name_user}!")
+    list_answer = [right_answer, user_answer]
+    return list_answer

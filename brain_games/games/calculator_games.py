@@ -14,7 +14,7 @@ def multiply_func(first_operand, second_operand):
     return first_operand * second_operand
 
 
-def sort_func(focus_operator, name_user):
+def sort_func(focus_operator):
     first_operand = randint(10, 50)
     second_operand = randint(0, 10)
     if focus_operator == '+':
@@ -33,24 +33,8 @@ def sort_func(focus_operator, name_user):
     return list_answer
 
 
-def calc(name_user):
-    print('What is the result of the expression?')
-    count = 0
+def calc():
     operators = ["+", "-", "*"]
-    while count < 3:
-        focus_operator = operators[randint(0, 2)]
-        list_answer = sort_func(focus_operator, name_user)
-        right_answer = list_answer[0]
-        user_answer = list_answer[1]
-        if int(user_answer) == right_answer:
-            print("Correct!")
-            count += 1
-        else:
-            count = 25
-    else:
-        if count == 3:
-            print(f'Congratulations, {name_user}!')
-        elif count == 25:
-            print(f"'{user_answer}' is wrong answer ;(."
-                  f"Correct answer was '{right_answer}'."
-                  f" Let's try again, {name_user}!")
+    focus_operator = operators[randint(0, 2)]
+    list_answer = sort_func(focus_operator)
+    return list_answer
