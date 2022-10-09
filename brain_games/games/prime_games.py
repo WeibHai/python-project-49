@@ -4,7 +4,7 @@ from random import randint
 
 def search_right_answer(number):
     if number == 1:
-        return 'yes'
+        return 'no'
     else:
         separators = []
         separator = number
