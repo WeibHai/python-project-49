@@ -12,16 +12,11 @@ def run_game():
     if number == 1:
         return 'no'
     else:
-        divisors = []
-        divisor = number
-        while divisor != 0:
-            if number % divisor == 0:
-                divisors.append(divisor)
-                divisor -= 1
-            else:
-                divisor -= 1
+        divisors = 0
+        for i in range(2, number // 2+1):
+            if (number % i == 0):
+                divisors = divisors + 1
+        if divisors == 0:
+            return 'yes'
         else:
-            if len(divisors) == 2:
-                return 'yes'
-            else:
-                return 'no'
+            return 'no'
