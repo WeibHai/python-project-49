@@ -1,11 +1,13 @@
 from prompt import string
 from random import randint
 
+
 def return_result(divisors):
     if len(divisors) == 2:
         return 'yes'
     else:
         return 'no'
+
 
 def search_right_answer(number):
     if number == 1:
