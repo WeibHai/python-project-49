@@ -3,6 +3,7 @@ from brain_games.games.gcd_games import gcd
 from brain_games.games.prime_games import prime
 from brain_games.games.progression_games import progression
 from brain_games.games.even_games import parity_check
+from brain_games.games.even_greeting import welcome_user
 
 
 def print_result(answer_func, right_answer, user_answer, name_user):
@@ -46,7 +47,22 @@ def sort_func(games):
         return answer_func
 
 
-def distribution_func(games, name_user):
+def greetings(games):
+    if games == 'calc':
+        print('What is the result of the expression?')
+    elif games == 'gcd':
+        print('Find the greatest common divisor of given numbers.')
+    elif games == 'prime':
+        print('Answer "yes" if given number is prime. Otherwise answer "no".')
+    elif games == 'progression':
+        print('What number is missing in the progression?')
+    else:
+        print('Answer "yes" if the number is even, otherwise answer "no".')
+
+
+def distribution_func(games):
+    greetings(games)
+    name_user = welcome_user()
     count = 0
     while count < 3:
         list_answers = sort_func(games)

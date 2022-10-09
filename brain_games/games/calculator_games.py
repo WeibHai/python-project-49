@@ -34,6 +34,7 @@ def sort_func(focus_operator):
 
 
 def calc():
+    print('What is the result of the expression?')
     operators = ["+", "-", "*"]
     focus_operator = operators[randint(0, 2)]
     list_answer = sort_func(focus_operator)
