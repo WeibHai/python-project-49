@@ -7,10 +7,12 @@ description = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 def simplicity_test(number):
     if number == 1:
         return 'no'
+
     divisors = 0
     for i in range(2, number // 2 + 1):
-        if (number % i == 0):
-            divisors = divisors + 1
+        if number % i == 0:
+            divisors += 1
+
     if divisors == 0:
         return True
     else:
