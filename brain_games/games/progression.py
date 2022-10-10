@@ -16,7 +16,7 @@ def create_progression():
 
 def run_game():
     progression = create_progression()
-    right_answer = progression[randint(1, 10)]
+    right_answer = progression[randint(1, 9)]
 
     progression[progression.index(right_answer)] = '..'
 
