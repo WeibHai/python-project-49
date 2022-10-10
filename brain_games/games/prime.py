@@ -12,16 +12,19 @@ def simplicity_test(number):
         if (number % i == 0):
             divisors = divisors + 1
     if divisors == 0:
-        return 'yes'
+        return True
     else:
-        return 'no'
+        return False
 
 
 def run_game():
     number = randint(1, 25)
     game_question = (f'Question: {number}')
 
-    right_answer = simplicity_test(number)
+    if simplicity_test(number) is True:
+        right_answer = 'yes'
+    else:
+        right_answer = 'no'
 
     list_returned_arg = [right_answer, game_question]
     return list_returned_arg
