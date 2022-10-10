@@ -1,7 +1,7 @@
 from random import randint
 
 
-answer = 'What is the result of the expression?'
+description = 'What is the result of the expression?'
 
 
 def run_game():
@@ -11,7 +11,8 @@ def run_game():
     operators = ["+", "-", "*"]
     focus_operator = operators[randint(0, 2)]
 
-    print(f'Question: {first_operand} {focus_operator} {second_operand}')
+    game_question = (f'Question: {first_operand} {focus_operator}'
+                     f' {second_operand}')
 
     if focus_operator == '+':
         right_answer = first_operand + second_operand
@@ -19,4 +20,5 @@ def run_game():
         right_answer = first_operand - second_operand
     elif focus_operator == '*':
         right_answer = first_operand * second_operand
-    return right_answer
+    list_returned_arg = [str(right_answer), game_question]
+    return list_returned_arg

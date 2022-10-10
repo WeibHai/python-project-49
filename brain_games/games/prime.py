@@ -1,12 +1,10 @@
 from random import randint
 
 
-answer = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+description = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def run_game():
-    number = randint(1, 25)
-    print(f'Question: {number}')
+def simplicity_test(number):
     if number == 1:
         return 'no'
     divisors = 0
@@ -17,3 +15,13 @@ def run_game():
         return 'yes'
     else:
         return 'no'
+
+
+def run_game():
+    number = randint(1, 25)
+    game_question = (f'Question: {number}')
+
+    right_answer = simplicity_test(number)
+
+    list_returned_arg = [right_answer, game_question]
+    return list_returned_arg

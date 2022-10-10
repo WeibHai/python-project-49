@@ -1,17 +1,20 @@
 from random import randint
 
 
-answer = 'Find the greatest common divisor of given numbers.'
+description = 'Find the greatest common divisor of given numbers.'
 
 
 def run_game():
     first_int = randint(1, 10)
     second_int = randint(1, 10)
-    print(f'Question: {first_int} {second_int}')
-    right_answer = min([first_int, second_int])
-    while right_answer != 0:
-        if first_int % right_answer == 0 and second_int % right_answer == 0:
-            return right_answer
+    game_question = (f'Question: {first_int} {second_int}')
+    number = min([first_int, second_int])
+    right_answer = number
+    while number != 0:
+        if first_int % number == 0 and second_int % number == 0:
+            right_answer = number
+            break
         else:
-            right_answer -= 1
-    return right_answer
+            number -= 1
+    list_returned_arg = [str(right_answer), game_question]
+    return list_returned_arg
