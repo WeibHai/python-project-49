@@ -1,10 +1,10 @@
 from random import randint
 
 
-description = 'Find the greatest common divisor of given numbers.'
+DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 
-def run_game():
+def generate_round():
     first_int = randint(1, 10)
     second_int = randint(1, 10)
     game_question = (f'Question: {first_int} {second_int}')
@@ -16,5 +16,4 @@ def run_game():
             break
         else:
             number -= 1
-    list_returned_arg = [str(right_answer), game_question]
-    return list_returned_arg
+    return str(right_answer), game_question

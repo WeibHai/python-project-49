@@ -1,10 +1,10 @@
 from random import randint
 
 
-description = 'What is the result of the expression?'
+DESCRIPTION = 'What is the result of the expression?'
 
 
-def run_game():
+def generate_round():
     first_operand = randint(0, 10)
     second_operand = randint(0, 10)
 
@@ -20,5 +20,4 @@ def run_game():
         right_answer = first_operand - second_operand
     elif focus_operator == '*':
         right_answer = first_operand * second_operand
-    list_returned_arg = [str(right_answer), game_question]
-    return list_returned_arg
+    return str(right_answer), game_question

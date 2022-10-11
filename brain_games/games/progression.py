@@ -1,7 +1,7 @@
 from random import randint
 
 
-description = 'What number is missing in the progression?'
+DESCRIPTION = 'What number is missing in the progression?'
 
 
 def create_progression():
@@ -9,20 +9,19 @@ def create_progression():
     step_progression = randint(2, 5)
     result = []
     while len(result) < 10:
-        result.append(element_progression)
-        element_progression += step_progression
+        result.append(str(element_progression))
+        element_progression = int(element_progression) + step_progression
     return result
 
 
-def run_game():
+def generate_round():
     progression = create_progression()
-    right_answer = progression[randint(1, 9)]
+    index_x_element = randint(1, 9)
+    right_answer = progression[index_x_element]
 
-    progression[progression.index(right_answer)] = '..'
-
-    progression = (' '.join(list(map(str, progression))))
+    progression[index_x_element] = '..'
+    progression = (' '.join(progression))
 
     game_question = (f'Question: {progression}')
 
-    list_returned_arg = [str(right_answer), game_question]
-    return list_returned_arg
+    return str(right_answer), game_question

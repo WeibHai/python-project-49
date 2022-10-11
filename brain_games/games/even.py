@@ -1,24 +1,17 @@
 from random import randint
 
 
-description = 'Answer "yes" if the number is even, otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def check_parity(number):
-    if number % 2 == 0:
-        return True
-    else:
-        return False
+def is_even(number):
+    return True if number % 2 == 0 else False
 
 
-def run_game():
+def generate_round():
     number = randint(1, 25)
     game_question = (f'Question: {number}')
 
-    if check_parity(number) is True:
-        right_answer = 'yes'
-    else:
-        right_answer = 'no'
+    right_answer = 'yes' if is_even(number) is True else 'no'
 
-    list_returned_arg = [right_answer, game_question]
-    return list_returned_arg
+    return right_answer, game_question
