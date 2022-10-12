@@ -5,12 +5,12 @@ DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def is_even(number):
-    return True if number % 2 == 0 else False
+    return number % 2 == 0
 
 
 def generate_round():
     number = randint(1, 25)
-    game_question = (f'Question: {number}')
+    game_question = f'Question: {number}'
 
     right_answer = 'yes' if is_even(number) is True else 'no'
 

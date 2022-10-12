@@ -10,7 +10,7 @@ def create_progression():
     result = []
     while len(result) < 10:
         result.append(str(element_progression))
-        element_progression = int(element_progression) + step_progression
+        element_progression = element_progression + step_progression
     return result
 
 

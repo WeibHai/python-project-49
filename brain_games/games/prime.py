@@ -12,7 +12,7 @@ def is_prime(number):
         for i in range(2, number // 2 + 1):
             if number % i == 0:
                 divisors += 1
-        return True if divisors == 0 else False
+        return divisors == 0
 
 
 def generate_round():
